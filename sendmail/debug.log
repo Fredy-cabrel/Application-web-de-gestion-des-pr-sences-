@@ -1,0 +1,55 @@
+22/07/26 14:29:20 ** --- MESSAGE BEGIN ---
+22/07/26 14:29:20 ** To: tinkacabrel@gmail.com
+22/07/26 14:29:20 ** Subject: Email Test via PHP using Localhost
+22/07/26 14:29:20 ** From:mireillefeussouo@gmail.com
+22/07/26 14:29:20 ** 
+22/07/26 14:29:20 ** Hi, there...This is a test email send from Localhost.
+22/07/26 14:29:20 ** --- MESSAGE END ---
+22/07/26 14:29:22 ** Connecting to smtp.gmail.com:587
+22/07/26 14:29:23 ** Disconnected.
+22/07/26 14:29:23 ** Disconnected.
+22/07/26 14:29:23 ** Disconnected.
+22/07/26 14:29:23 ** Socket Error # 11002<EOL>
+22/07/26 15:16:51 ** --- MESSAGE BEGIN ---
+22/07/26 15:16:51 ** To: valeryserenakamdem@gmail.com
+22/07/26 15:16:51 ** Subject: Email Test via PHP using Localhost
+22/07/26 15:16:51 ** From:tinkacabrel@gmail.com
+22/07/26 15:16:51 ** 
+22/07/26 15:16:51 ** Hi, there...This is a test email send from Localhost.
+22/07/26 15:16:51 ** --- MESSAGE END ---
+22/07/26 15:16:52 ** Connecting to smtp.gmail.com:587
+22/07/26 15:17:04 ** Disconnected.
+22/07/26 15:17:04 ** Disconnected.
+22/07/26 15:17:04 ** Disconnected.
+22/07/26 15:17:04 ** Socket Error # 11001<EOL>Host not found.
+22/07/26 15:17:46 ** --- MESSAGE BEGIN ---
+22/07/26 15:17:46 ** To: valeryserenakamdem@gmail.com
+22/07/26 15:17:46 ** Subject: Email Test via PHP using Localhost
+22/07/26 15:17:46 ** From:tinkacabrel@gmail.com
+22/07/26 15:17:46 ** 
+22/07/26 15:17:46 ** Hi, there...This is a test email send from Localhost.
+22/07/26 15:17:46 ** --- MESSAGE END ---
+22/07/26 15:17:48 ** Connecting to smtp.gmail.com:587
+22/07/26 15:17:49 ** Disconnected.
+22/07/26 15:17:49 ** Disconnected.
+22/07/26 15:17:49 ** Disconnected.
+22/07/26 15:17:49 ** Socket Error # 11002<EOL>
+22/09/16 16:51:21 ** --- MESSAGE BEGIN ---
+22/09/16 16:51:21 ** To: tinkacabrel@gmail.com
+22/09/16 16:51:21 ** Subject: Email Verification Code
+22/09/16 16:51:21 ** From: shahiprem7890@gmail.com
+22/09/16 16:51:21 ** 
+22/09/16 16:51:21 ** Your verification code is 649879
+22/09/16 16:51:21 ** --- MESSAGE END ---
+22/09/16 16:51:30 ** Connecting to smtp.gmail.com:587
+22/09/16 16:51:31 ** Connected.
+22/09/16 16:51:31 << 220 smtp.gmail.com ESMTP 12-20020a05600c24cc00b003b339438733sm2482031wmu.19 - gsmtp<EOL>
+22/09/16 16:51:31 >> EHLO DESKTOP-1CA63O4<EOL>
+22/09/16 16:51:31 << 250-smtp.gmail.com at your service, [154.72.171.211]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250 SMTPUTF8<EOL>
+22/09/16 16:51:31 ** Authenticating as tinkacabrel@gmail.com
+22/09/16 16:51:31 >> STARTTLS<EOL>
+22/09/16 16:51:31 << 220 2.0.0 Ready to start TLS<EOL>
+22/09/16 16:51:32 ** Disconnected.
+22/09/16 16:51:32 ** Disconnected.
+22/09/16 16:51:32 ** Disconnected.
+22/09/16 16:51:32 ** Socket Error # 10054<EOL>Connection reset by peer.

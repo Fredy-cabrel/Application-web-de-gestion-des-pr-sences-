@@ -1,0 +1,28 @@
+22/08/30 13:45:42 : Socket Error # 11001<EOL>Host not found.
+22/08/30 14:09:53 : Socket Error # 11001<EOL>Host not found.
+22/08/30 14:38:02 : Socket Error # 11001<EOL>Host not found.
+22/08/31 09:25:34 : Socket Error # 11001<EOL>Host not found.
+22/09/01 10:02:14 : Socket Error # 11001<EOL>Host not found.
+22/09/09 07:13:59 : Socket Error # 11001<EOL>Host not found.
+22/09/16 18:33:02 : Request failed; Mailbox unavailable<EOL>
+22/09/16 18:36:43 : Request failed; Mailbox unavailable<EOL>
+22/09/16 18:39:17 : Request failed; Mailbox unavailable<EOL>
+22/09/19 14:06:52 : Socket Error # 11001<EOL>Host not found.
+22/09/19 14:38:00 : Socket Error # 11001<EOL>Host not found.
+22/09/29 11:05:56 : Connection Closed Gracefully.
+22/09/29 11:06:19 : Cannot connect to SMTP server 87.248.97.36 (87.248.97.36:587), connect error 10060<EOL>
+22/09/29 11:06:25 : Cannot connect to SMTP server 87.248.97.36 (87.248.97.36:587), connect error 10060<EOL>
+22/09/29 11:06:53 : Connection Closed Gracefully.
+22/09/29 11:15:51 : Socket Error # 11002<EOL>
+22/09/29 11:15:52 : Socket Error # 11002<EOL>
+22/09/29 11:18:46 : Socket Error # 11002<EOL>
+22/09/29 11:18:51 : Socket Error # 11002<EOL>
+22/09/29 11:20:11 : Socket Error # 11002<EOL>
+22/09/29 21:49:55 : Socket Error # 11001<EOL>Host not found.
+22/09/30 06:38:31 : Socket Error # 11001<EOL>Host not found.
+22/09/30 06:38:32 : Socket Error # 11001<EOL>Host not found.
+22/09/30 06:39:54 : Socket Error # 11001<EOL>Host not found.
+22/10/04 18:25:02 : Socket Error # 11001<EOL>Host not found.
+22/10/04 18:25:07 : Socket Error # 11001<EOL>Host not found.
+22/10/05 10:15:16 : Socket Error # 11001<EOL>Host not found.
+22/10/05 14:20:10 : Socket Error # 11001<EOL>Host not found.

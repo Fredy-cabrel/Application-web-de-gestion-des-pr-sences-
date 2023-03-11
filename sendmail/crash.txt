@@ -1,0 +1,83 @@
+date/time         : 2022-09-16, 16:51:32, 285ms
+computer name     : DESKTOP-1CA63O4
+user name         : FC.FREDY
+registered owner  : FC.FREDY
+operating system  : Windows NT New x64 build 9200
+system language   : French
+system up time    : 45 minutes 42 seconds
+program up time   : 11 seconds
+processors        : 4x Intel(R) Core(TM) i5 CPU M 540 @ 2.53GHz
+physical memory   : 439/3954 MB (free/total)
+free disk space   : (C:) 57,16 GB
+display mode      : 1600x900, 32 bit
+process id        : $538
+allocated memory  : 20,03 MB
+command line      : "C:\xampp\sendmail\sendmail.exe" -t
+executable        : sendmail.exe
+exec. date/time   : 2012-04-16 18:30
+compiled with     : Delphi 2006/07
+madExcept version : 3.0l
+callstack crc     : $1d5da2f6, $bc508448, $bc508448
+exception number  : 1
+exception class   : EIdSocketError
+exception message : Socket Error # 10054 Connection reset by peer.
+
+main thread ($2928):
+00435e23 +0073 sendmail.exe IdStack                         706  +42 TIdStack.RaiseSocketError
+00435daa +0016 sendmail.exe IdStack                         660   +1 TIdStack.RaiseLastSocketError
+0045f2e8 +0100 sendmail.exe IdSSLOpenSSLHeaders           16464  +22 EIdOpenSSLAPISSLError.RaiseExceptionCode
+0045f1d9 +0021 sendmail.exe IdSSLOpenSSLHeaders           16433   +1 EIdOpenSSLAPISSLError.RaiseException
+00466686 +012a sendmail.exe IdSSLOpenSSL                   2668  +17 TIdSSLSocket.Connect
+00465a1c +00dc sendmail.exe IdSSLOpenSSL                   2262  +21 TIdSSLIOHandlerSocketOpenSSL.OpenEncodedConnection
+00465681 +0041 sendmail.exe IdSSLOpenSSL                   2131   +5 TIdSSLIOHandlerSocketOpenSSL.SetPassThrough
+00445f97 +0043 sendmail.exe IdExplicitTLSClientServerBase   388   +3 TIdExplicitTLSClient.TLSHandshake
+00459fc1 +0075 sendmail.exe IdSMTPBase                      395  +12 TIdSMTPBase.StartTLS
+0045a8bd +0039 sendmail.exe IdSMTP                          312  +11 TIdSMTP.Authenticate
+004b5f81 +10cd sendmail.exe sendmail                        822 +340 initialization
+76f9fa27 +0017 KERNEL32.DLL                                          BaseThreadInitThunk
+
+thread $21a4:
+76f9fa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $203c:
+76f9fa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2848:
+76f9fa27 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+stack dump:
+0019efac  28 5e 43 00 de fa ed 0e - 01 00 00 00 07 00 00 00  (^C.............
+0019efbc  c0 ef 19 00 28 5e 43 00 - 78 ce 49 02 ec 28 43 00  ....(^C.x.I..(C.
+0019efcc  ec 28 43 00 a4 03 00 00 - fc ef 19 00 dc ef 19 00  .(C.............
+0019efdc  50 f0 19 00 c8 4b 40 00 - fc ef 19 00 e0 4e 49 02  P....K@......NI.
+0019efec  00 00 00 00 00 00 00 00 - 46 27 00 00 e0 4e 49 02  ........F'...NI.
+0019effc  08 f0 19 00 ad 5d 43 00 - e0 4e 49 02 1c f0 19 00  .....]C..NI.....
+0019f00c  1a 5d 43 00 00 00 00 00 - ff ff ff ff e0 4e 49 02  .]C..........NI.
+0019f01c  94 f0 19 00 66 4f 43 00 - 7c fd 19 00 90 69 48 02  ....fOC.|....iH.
+0019f02c  ec 28 43 00 29 a4 43 00 - 90 f0 19 00 b0 f4 42 02  .(C.).C.......B.
+0019f03c  a0 0c 44 00 94 34 46 00 - 00 00 00 00 86 56 44 00  ..D..4F......VD.
+0019f04c  c0 d9 43 00 5c f0 19 00 - c8 4b 40 00 94 f0 19 00  ..C.\....K@.....
+0019f05c  b0 f0 19 00 c8 4b 40 00 - 94 f0 19 00 b0 f4 42 02  .....K@.......B.
+0019f06c  b0 f4 42 02 00 00 00 00 - 00 00 00 00 00 00 00 00  ..B.............
+0019f07c  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0019f08c  b0 f4 42 02 00 00 00 00 - c0 f0 19 00 d4 07 44 00  ..B...........D.
+0019f09c  00 00 00 00 f2 9f 45 00 - 87 fd 43 00 00 00 00 00  ......E...C.....
+0019f0ac  09 fe 43 00 c8 f0 19 00 - c8 4b 40 00 c0 f0 19 00  ..C......K@.....
+0019f0bc  50 f3 42 02 d8 f0 19 00 - a5 ae 45 00 7c fd 19 00  P.B.......E.|...
+0019f0cc  c8 4b 40 00 d8 f0 19 00 - 50 f3 42 02 98 fd 19 00  .K@.....P.B.....
+0019f0dc  9b 05 44 00 fa 9f 45 00 - 00 00 00 00 28 5e 43 00  ..D...E.....(^C.
+
+disassembling:
+[...]
+00435e13       push    eax
+00435e14       mov     ecx, [ebp-8]
+00435e17       mov     dl, 1
+00435e19       mov     eax, [$4352ac]
+00435e1e       call    -$717 ($43570c)        ; IdStack.EIdSocketError.CreateError
+00435e23     > call    -$3113c ($404cec)      ; System.@RaiseExcept
+00435e28 707   xor     eax, eax
+00435e2a       pop     edx
+00435e2b       pop     ecx
+00435e2c       pop     ecx
+00435e2d       mov     fs:[eax], edx
+[...]
